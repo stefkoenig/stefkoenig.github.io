@@ -1,0 +1,140 @@
+body{
+    background-color: #183447;
+}
+.container{
+    margin: 0 auto;
+    width: 559px;
+}
+
+h1{
+    margin-top: 10px;
+    margin-left: 69px;
+    margin-right: 69px;
+    margin-bottom: 7px;
+    color: lightgray;
+    font-family: 'Codystar', cursive;
+    font-size: 50px;
+}
+
+.cell{
+    height: 109px;
+    width: 125px;
+    /*border: 1px solid black;*/
+    display: inline-block;
+    text-align: center;
+    line-height: 109px;
+    font-size: 50px;
+}
+
+.dot {
+    height: 21px;
+    width: 21px;
+    padding: 0px;
+}
+
+.v-line{
+    height: 109px;
+    width: 0px;
+    border-right: 8px solid;
+    display: inline-block;
+    margin-left: 8.5px;
+    margin-right: 8.5px;
+}
+
+.h-line{
+    height: 0px;
+    width: 131px;
+    border-top: 8px solid;
+    display: inline-block;
+    margin-top: 8.5px;
+    margin-bottom: 8px;
+}
+
+.player1selected-v-line{
+    border-right: 8px solid;
+    color: #E757E7;
+    height: 109px;
+    width: 0px;
+    display: inline-block;
+    margin-left: 8.5px;
+    margin-right: 8.5px;
+    text-shadow: 0 0 3px lightgray;
+}
+
+.player2selected-v-line{
+    border-right: 8px solid;
+    color: #54ECF4;
+    height: 109px;
+    width: 0px;
+    display: inline-block;
+    margin-left: 8.5px;
+    margin-right: 8.5px;
+    text-shadow: 0 0 3px lightgray;
+
+}
+
+.player1selected-h-line{
+    border-top: 8px solid;
+    color: #E757E7;
+    height: 0px;
+    width: 131px;
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.player2selected-h-line{
+    border-top: 8px solid;
+    color: #54ECF4;
+    height: 0px;
+    width: 131px;
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#p1score{
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    color: #E757E7;
+    font-family: 'Codystar', cursive;
+    font-size: 30px;
+
+}
+
+#p2score{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-bottom: 25px;
+    color: #54ECF4;
+    font-family: 'Codystar', cursive;
+    font-size: 30px;
+
+}
+
+.v-line:hover{
+    border-right: 8px dashed;
+}
+
+.h-line:hover{
+    border-top: 8px dashed;
+}
+
+#button{
+    margin-left: 150px;
+    margin-right: 200px;
+    margin-top: 15px;
+    border: 2px solid black;
+    font-family: 'Codystar', cursive;
+    font-size: 20px;
+    color: lightgray;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#button:hover{
+    background-color: #20455E; 
+}

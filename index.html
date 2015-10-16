@@ -1,1 +1,92 @@
-hello World
+<html>
+<head>
+	<title>jQuery Intro</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Codystar:400,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class='container'>
+	<h1>Dots &#38 Boxes</h1>
+	<h2 id='p1score'>Player 1: 0</h2>
+	<h2 id='p2score'>Player 2: 0</h2>
+
+
+
+		<div class='row', id='row0'>
+			<div class='h-lines'>
+				<img class = 'dot' src="dot2.png" alt="dot"/>
+				<div class='line h-line' id='h_1' data-edge='top'></div>
+				<img class = 'dot' src="dot2.png" alt="dot"/>
+				<div class='line h-line' id='h_2' data-edge='top'></div>
+				<img class = 'dot' src="dot2.png" alt="dot"/>
+				<div class='line h-line' id='h_3' data-edge='top'></div>
+				<img class = 'dot' src="dot2.png" alt="dot"/>
+			</div>
+		</div>
+		<div class='row' id='row1'>
+			<div class='v-lines'>
+				<div class='line v-line' id='v_1' data-edge='left'></div>
+				<div class='cell' id='cell1'></div>
+				<div class='line v-line' id='v_2'></div>
+				<div class='cell' id='cell2'></div>
+				<div class='line v-line' id='v_3'></div>
+				<div class='cell' id='cell3'></div>
+				<div class='line v-line' id='v_4' data-edge='right'></div>
+			</div>
+			<div class='h-lines'>
+				<img class = 'dot' src="dot2.png" alt="dot"/>
+				<div class='line h-line' id='h_4'></div>
+				<img class = 'dot' src="dot2.png" alt="dot"/>
+				<div class='line h-line' id='h_5'></div>
+				<img class = 'dot' src="dot2.png" alt="dot"/>
+				<div class='line h-line' id='h_6'></div>
+				<img class = 'dot' src="dot2.png" alt="dot"/>
+			</div>
+		</div>
+			<div class='row' id='row2'>
+				<div class='v-lines'>
+					<div class='line v-line' id='v_5' data-edge='left'></div>
+					<div class='cell' id='cell4'></div>
+					<div class='line v-line' id='v_6'></div>
+					<div class='cell' id='cell5'></div>
+					<div class='line v-line' id='v_7'></div>
+					<div class='cell' id='cell6'></div>
+					<div class='line v-line' id='v_8' data-edge='right'></div>
+				</div>
+				<div class='h-lines'>
+					<img class = 'dot' src="dot2.png" alt="dot"/>
+					<div class='line h-line' id='h_7'></div>
+					<img class = 'dot' src="dot2.png" alt="dot"/>
+					<div class='line h-line' id='h_8'></div>
+					<img class = 'dot' src="dot2.png" alt="dot"/>
+					<div class='line h-line' id='h_9'></div>
+					<img class = 'dot' src="dot2.png" alt="dot"/>
+				</div>
+			</div>
+			<div class='row' id='row3'>
+				<div class='v-lines'>
+					<div class='line v-line' id='v_9' data-edge='left'></div>
+					<div class='cell' id='cell7'></div>
+					<div class='line v-line' id='v_10'></div>
+					<div class='cell' id='cell8'></div>
+					<div class='line v-line'id='v_11'></div>
+					<div class='cell' id='cell9'></div>
+					<div class='line v-line' id='v_12' data-edge='right'></div>
+				</div>
+				<div class='h-lines'>
+					<img class = 'dot' src="dot2.png" alt="dot"/>
+					<div class='line h-line' id='h_10' data-edge='bottom'></div>
+					<img class = 'dot' src="dot2.png" alt="dot"/>
+					<div class='line h-line'id='h_11' data-edge='bottom'></div>
+					<img class = 'dot' src="dot2.png" alt="dot"/>
+					<div class='line h-line' id='h_12' data-edge='bottom'></div>
+					<img class = 'dot' src="dot2.png" alt="dot"/>
+				</div>
+			</div>
+		<div id="button">Clear the Board</div>
+	</div>
+
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
