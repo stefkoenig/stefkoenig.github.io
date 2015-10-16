@@ -4,18 +4,18 @@
 **Players:** Two
 **Board:** 4 dots by 4 dots (In future versions, I would like to make this scalable so a user can choose their board size)
 
-[Start of game](board.png)
+![Start of game](images/board.png)
 
 
 **Objective:** 
 Have the most completed boxes at the end of the game.
 
-[How to win](completeboard.png)
+![How to win](images/completeboard.png)
 
 **Game Play:** 
 Players alternate drawing lines to connect two dots. The goal is to complete boxes. Players can complete boxes with lines drawn by other players. When a box is completed, the box will change colors to that of the current player and that player will earn a point for a completed box. The player who closed the box then gets to take another turn connecting another two dots. 
 
-[Player 2 scores and takes another turn](player2scores.png)
+![Player 2 scores and takes another turn](images/player2scores.png)
 
 Game play continues until all lines have been drawn between all dots on the board and all possible boxes have been made. At the end of the game, the player with the most completed boxes wins.
 
